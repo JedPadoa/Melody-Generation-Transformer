@@ -6,7 +6,7 @@ This is a Transformer neural network trained on the [**Irishman dataset**](https
 - Create a virtual python env with python 3.10
 - Install required dependencies: *$ pip install -r requirements.txt*
 - Run training module *$ python train.py* : a tokenizer.pkl file and transformer folder will be created
-- Run generator module *$ notationgenerator.py* : Prints generated ABC notation
+- Run generator module *$python notationgenerator.py* : Prints generated ABC notation
 - If needed, tweak the initial sequence in notationgenerator.py
 - truncate_data.py does not need to be run. This was created solely to truncate the raw training data to 1000 elements
 
